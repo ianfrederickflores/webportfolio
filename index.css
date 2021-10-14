@@ -1,0 +1,27 @@
+* {
+	font-family: 'IM Fell English SC', serif;
+	font-size: 100%;
+	justify-content: center;
+}
+
+.main-content {
+	background: #CEC45F;
+	background: -moz-linear-gradient(left, #CEC45F 0%, #261F80 50%, #CEC45F 100%);
+	background: -webkit-linear-gradient(left, #CEC45F 0%, #261F80 50%, #CEC45F 100%);
+	background: linear-gradient(to right, #CEC45F 0%, #261F80 50%, #CEC45F 100%);
+	text-align: center;
+	padding: 10%;
+}
+
+.about-me {
+	text-align: center;
+	padding: 25%;
+}
+
+.gallery {
+	text-align: center;
+}
+
+.project {
+	text-align: center;
+}

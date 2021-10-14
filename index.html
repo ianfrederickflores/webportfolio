@@ -4,6 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./index.css">
 	<title>
 		Portfolio
 	</title>
@@ -28,9 +29,6 @@
 		        <a class="nav-link" href="#">Projects</a>
 		      </li>
 		      <li class="nav-item">
-		        <a class="nav-link" href="#">Tools</a>
-		      </li>
-		      <li class="nav-item">
 		        <a class="nav-link" href="#">Contact Me</a>
 		      </li>
 		    </ul>
@@ -39,26 +37,135 @@
 	<!-- Header Section End -->
 
 	<!-- Main Content Start -->
-		<div class="container-fluid">
-			<div class="row">
-				<!-- About Me Section Start -->
-					<div class="text-justify">
-						<img src="./images/Flores-Ian.jpg" class="img-fluid">
-						<h2>Ian Frederick Flores</h2>
-						<p>Hello, I am Ian Frederick Flores. An aspiring web developer currently training with Zuitt. My previous working experience as a Third Engineering Officer has allowed me to travel to various places in the world. Unfortunately with the advent of the global pandemic, my Marine Engineering career has taken a huge hit. This is the main reason why I switched career paths that enables me to work remotely.</p>
-					</div>
-				<!-- About Me Section End -->
+		<div class="container-fluid main-content">
+			<!-- About Me Section Start -->
+			<div class="row text-light about-me">
+				<img src="./images/Flores-Casual.jpg" class="img-fluid rounded-circle mx-auto image-1">
+				<h2 class="name">Ian Frederick Flores</h2>
+				<p>Hello, I am Ian Frederick Flores. An aspiring web developer currently training with Zuitt. My previous working experience as a Third Engineering Officer has allowed me to travel to various places in the world. Unfortunately with the advent of the global pandemic, my Marine Engineering career has taken a huge hit. This is the main reason why I switched career paths that enables me to work remotely.</p>	
+			</div>
+			<!-- About Me Section End -->
 
-				<!-- Gallery Section Start -->
-					<div class="card" style="width: 18rem;">
-					  <img src="..." class="card-img-top" alt="...">
-					  <div class="card-body">
-					    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-					  </div>
+			<!-- Gallery Section Start -->
+			<div class="row">
+				<h2 class="gallery">Gallery</h2>
+				<div class="card bg-secondary border-dark text-light mt-5 col-sm-12 col-lg" style="width: 18rem;">
+					<img src="./images/Engine-Crew.jpg" class="card-img-top img-fluid pt-3" alt="engine-crew">
+					<div class="card-body">
+					  <p class="card-text">Engine Crew on Break</p>
 					</div>
-				<!-- Gallery Section End -->
+				</div>
+				<div class="card bg-secondary border-dark text-light mt-5 col-sm-12 col-lg" style="width: 18rem;">
+					<img src="./images/Flores-Panama.jpg" class="card-img-top img-fluid pt-3" alt="flores-panama">
+					<div class="card-body">
+					  <p class="card-text">Homebound Journey</p>
+					</div>
+				</div>
+				<div class="card bg-secondary border-dark text-light mt-5 co-sm-12 col-lg" style="width: 18rem;">
+					<img src="./images/Panama-Locks.jpg" class="card-img-top img-fluid pt-3" alt="panama-locks">
+					<div class="card-body">
+					  <p class="card-text">Transiting Panama Canal</p>
+					</div>
+				</div>
+				<div class="card bg-secondary border-dark text-light mt-5 col-sm-12 col-lg" style="width: 18rem;">
+					<img src="./images/Flores-Ulsan.jpg" class="card-img-top img-fluid pt-3" alt="flores-ulsan">
+					<div class="card-body">
+					  <p class="card-text">First Shore Leave in Korea</p>
+					</div>
+				</div>
+				<div class="card bg-secondary border-dark text-light mt-5 col-sm-12 col-lg" style="width: 18rem;">
+					<img src="./images/Flores-Ulsan-1.jpg" class="card-img-top img-fluid pt-3" alt="flores-ulsan-1">
+					<div class="card-body">
+					  <p class="card-text">First Shore Leave in Korea</p>
+					</div>
+				</div>
+			</div>
+			<!-- Gallery Section End -->
+
+			<!-- Projects Section Start -->
+			<div class="row project">
+				<h2>Sample Projects</h2>
+			  <div class="col-sm-12 col-lg text-light mt-5">
+			    <div class="card bg-secondary border-dark">
+			      <div class="card-body">
+			        <h5 class="card-title">HTML Projects</h5>
+			        <p class="card-text">Sample HTML</p>
+			        <a href="#" class="btn btn-primary">Go</a>
+			      </div>
+			    </div>
+			  </div>
+			  <div class="col-sm-12 col-lg text-light mt-5">
+			    <div class="card bg-secondary border-dark">
+			      <div class="card-body">
+			        <h5 class="card-title">CSS Projects</h5>
+			        <p class="card-text">Sample CSS</p>
+			        <a href="#" class="btn btn-primary">Go</a>
+			      </div>
+			    </div>
+			  </div>
+			  <div class="col-sm-12 col-lg text-light mt-5">
+			    <div class="card bg-secondary border-dark">
+			      <div class="card-body">
+			        <h5 class="card-title">Bootstrap Projects</h5>
+			        <p class="card-text">Sample Bootstrap</p>
+			        <a href="#" class="btn btn-primary">Go</a>
+			      </div>
+			    </div>
+			  </div>
+			</div>
+			<!-- Projects Section End -->	
+		</div>
+		
+		<!-- Contact Section Start -->
+		<div class="container-fluid contact-section">
+			<div class="row">
+				<div class="bg-dark p-5 mx-auto col-sm-12 col-md 8 col-xl-4" id="contact">
+					<h2 class="mt-3 mb-3 text-light">Contact Me</h2>
+					<form class="bg-primary p-5">
+						<div class="form-group">
+							<label for="formGroupExampleInput">Name</label>
+							<input type="text" class="form-control" id="formGroupExampleInput" placeholder="Your Name">
+						</div>
+						<div class="form-group">
+							<label for="formGroupExampleInput2">Email Address</label>
+							<input type="text" class="form-control" id="formGroupExampleInput2" placeholder="name@example.com">
+						</div>
+						<div class="form-group">
+							<label for="formGroupExampleInput2">Contact Number</label>
+							<input type="number" class="form-control" id="formGroupExampleInput2" placeholder="+63 900 000 0000">
+						</div>
+						<div class="form-group">
+							<label for="exampleFormControlTextarea1">Message</label>
+							 <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+						</div>
+						<button type="button" class="btn btn-secondary btn-sm" data-toggle="modal" data-target="#exampleModal">
+								Send Email
+						</button>
+
+						<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+							<div class="modal-dialog">
+								<div class="modal-content">
+									<div class="modal-header">
+									    <h5 class="modal-title" id="exampleModalLabel">Thank You for contacting Us</h5>
+									    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+									        <span aria-hidden="true">&times;</span>
+									    </button>
+									</div>
+									<div class="modal-body">
+									    Message Successfully Sent
+									</div>
+									<div class="modal-footer">
+									    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</form>
+				</div>
 			</div>
 		</div>
+		<!-- Contact Section End -->
+
 	<!-- Main Content End -->
 
 
