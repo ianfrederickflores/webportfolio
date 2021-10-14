@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+	<title>Activity</title>
+</head>
+<body>
+	<header>
+		<h1>
+			Zuitt IT Solutions
+		</h1>
+		<h2>
+			Products Offered
+		</h2>
+	</header>
+	<main>
+		<section>
+			<table border="1">
+			<thead>
+				<tr>
+					<th>Package</th>
+					<th>Price</th>
+					<th>Description</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Basic</td>
+					<td>&#8369;500.00</td>
+					<td>Package includes a fully functional website with desired specifications</td>
+				</tr>
+				<tr>
+					<td>Premium</td>
+					<td>&#8369;1000.00</td>
+					<td>Enjoy all the benefits of the basic package and also includes site support and maintenance</td>
+				</tr>
+			</tbody>
+			<tfoot>
+				<tr>
+					<th colspan="3">
+						<b>Additional features after initial project is inclusive of charges</b>
+					</th>
+				</tr>
+			</tfoot>
+			</table>
+		</section>
+		<section>
+			<h3>
+				<b>Contact Form</b>
+			</h3>
+			<form>
+				<label for="firstName">
+					First Name:
+				</label><br>
+				<input type="text" name="first_name" id="firstName" required autocomplete><br>
+
+				<label for="lastName">
+					Last Name:
+				</label><br>
+				<input type="text" name="last_name" id="lastName" required autocomplete><br>
+
+				<label for="email">
+					Email:
+				</label><br>
+				<input type="text" name="email" id="email" required autocomplete><br>
+
+				<label for="cntcNum">
+					Contact Number:
+				</label><br>
+				<input type="number" name="cntcnum" id="cntcNum" required autocomplete min="0"><br>
+
+				<label for="service_type">
+					Service Type:
+				</label><br>
+				<select name="service_type" id="service_type" required>
+					<option value="front_end">
+						Front End Programming
+					</option>
+					<option value="back_end">
+						Back End Programming
+					</option>
+					<option value="full_stack">
+						Full Stack Programming
+					</option>
+				</select><br>
+				<label>
+					Preferred Contact:
+				</label><br>
+				<input type="checkbox" name="preferred_contact" value="email">
+				<label>
+					Email
+				</label><br>
+
+				<input type="checkbox" name="preferred_contact" value="phone">
+				<label>
+					Phone
+				</label><br><br>
+
+				<label>
+					Package:
+				</label><br>
+
+				<input type="radio" name="preferred_contact" value="basic">
+				<label>
+					Basic
+				</label><br>
+
+				<input type="radio" name="preferred_contact" value="Premium">
+				<label>
+					Premium
+				</label><br><br>
+
+				<label for="message">
+					Message
+				</label><br>
+				<textarea name="message" id="message" rows="5"></textarea><br>
+
+				<button type="send_inquiry">
+					Send Inquiry
+				</button><br>
+
+				<button type="reset">
+					Reset
+				</button><br>
+			</form>
+		</section>
+	</main>
+
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+</body>
+</html>
